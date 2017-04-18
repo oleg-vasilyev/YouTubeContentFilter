@@ -1,0 +1,17 @@
+{
+	"name": "YouTubeContentFilter",
+	"version": "0.1",
+	"description": "YouTubeContentFilter",
+	"background": {
+		"scripts": [
+			"redirect.js"
+		]
+	},
+	"manifest_version": 2,
+	"permissions": [
+		"tabs"
+	],
+	"browser_action": {
+		"default_title": "Redirect"
+	}
+}
